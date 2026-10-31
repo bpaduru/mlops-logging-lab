@@ -1,0 +1,17 @@
+2026-10-31 14:21:00,709 - train - INFO - starting run 20261031_142100
+2026-10-31 14:21:00,712 - train - INFO - params: C=1.0, max_iter=5, test_size=0.2
+2026-10-31 14:21:00,723 - train - DEBUG - loaded wine data: 178 rows, 13 features
+2026-10-31 14:21:00,739 - train - INFO - train rows: 142, test rows: 36
+2026-10-31 14:21:00,766 - py.warnings - WARNING - C:\Users\Bimba Paduru\Desktop\mlops_labs\mlops-logging-lab\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 5 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=5).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2026-10-31 14:21:00,767 - train - INFO - training finished in 0.028 seconds
+2026-10-31 14:21:00,788 - train - INFO - test accuracy: 1.0000
+2026-10-31 14:21:00,790 - train - INFO - saved run summary to logs/runs.jsonl

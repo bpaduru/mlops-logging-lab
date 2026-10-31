@@ -1,0 +1,8 @@
+2026-10-31 14:18:43,293 - notebook - DEBUG - debug goes only to the file
+2026-10-31 14:18:43,293 - notebook - INFO - info goes to the console and the file
+2026-10-31 14:18:43,296 - notebook - ERROR - an error occurred while dividing by zero
+Traceback (most recent call last):
+  File "C:\Users\Bimba Paduru\AppData\Local\Temp\ipykernel_25484\3345506470.py", line 9, in <module>
+    result = 10 / 0
+             ~~~^~~
+ZeroDivisionError: division by zero

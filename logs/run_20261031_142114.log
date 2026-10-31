@@ -1,0 +1,13 @@
+2026-10-31 14:21:14,519 - train - INFO - starting run 20261031_142114
+2026-10-31 14:21:14,519 - train - INFO - params: C=1.0, max_iter=200, test_size=1.5
+2026-10-31 14:21:14,534 - train - DEBUG - loaded wine data: 178 rows, 13 features
+2026-10-31 14:21:14,535 - train - ERROR - run 20261031_142114 failed
+Traceback (most recent call last):
+  File "C:\Users\Bimba Paduru\Desktop\mlops_labs\mlops-logging-lab\train.py", line 45, in main
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Bimba Paduru\Desktop\mlops_labs\mlops-logging-lab\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 208, in wrapper
+    validate_parameter_constraints(
+  File "C:\Users\Bimba Paduru\Desktop\mlops_labs\mlops-logging-lab\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'test_size' parameter of train_test_split must be a float in the range (0.0, 1.0), an int in the range [1, inf) or None. Got 1.5 instead.

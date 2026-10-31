@@ -1,0 +1,8 @@
+2026-10-31 14:20:51,979 - train - INFO - starting run 20261031_142051
+2026-10-31 14:20:51,979 - train - INFO - params: C=0.001, max_iter=200, test_size=0.2
+2026-10-31 14:20:51,999 - train - DEBUG - loaded wine data: 178 rows, 13 features
+2026-10-31 14:20:52,028 - train - INFO - train rows: 142, test rows: 36
+2026-10-31 14:20:52,053 - train - INFO - training finished in 0.022 seconds
+2026-10-31 14:20:52,060 - train - INFO - test accuracy: 0.8611
+2026-10-31 14:20:52,062 - train - WARNING - accuracy is below 0.9, check the params
+2026-10-31 14:20:52,069 - train - INFO - saved run summary to logs/runs.jsonl
